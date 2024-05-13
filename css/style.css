@@ -766,3 +766,27 @@ html {
 .deactivated {
   display: none !important;
 }
+
+@media only screen and (max-width: 992px) {
+  .primary_heading_text {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .welcome_text {
+    text-align: center;
+  }
+
+  .under_line {
+    border-bottom: 2px solid var(--nav-heading-color-active);
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .primary_heading_text {
+    font-size: 1.4rem;
+  }
+}

@@ -582,7 +582,7 @@ progress {
   }
 }
 .row {
-  --bs-gutter-x: 1.5rem ;
+  --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -6841,7 +6841,7 @@ fieldset:disabled .btn {
   background-color: #0dd3f1 !important;
 }
 .bg-success {
-  background-color: #198754 !important;
+  background-color: #D5DCE6 !important;
 }
 .bg-info {
   background-color: #0dcaf0 !important;
@@ -6865,8 +6865,8 @@ fieldset:disabled .btn {
   background-color: #fff !important;
 }
 
-.bg-blue{
-  background-color: #1370b5 !important
+.bg-blue {
+  background-color: #1370b5 !important;
 }
 
 .bg-transparent {

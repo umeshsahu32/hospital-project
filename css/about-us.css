@@ -1,0 +1,173 @@
+.about-us-banner {
+  background-image: url(../img/about-us-banner.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  background-position: center;
+  width: 100%;
+  height: 30rem;
+}
+
+.hospital-desc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 7rem;
+  padding: 4rem 0;
+}
+
+.hospital-desc img {
+  width: 45vw;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  object-fit: cover;
+}
+
+.hospital-desc h3 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 3rem;
+  color: var(--primary);
+  line-height: 1.2;
+  max-width: 60%;
+}
+
+.hospital-desc p {
+  font-size: 16px;
+  color: #303030;
+  line-height: 1.5;
+  max-width: 70%;
+  margin-bottom: 1rem;
+}
+.under_line_about {
+  border-bottom: 2px solid var(--nav-heading-color-active);
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+.value-heading {
+  padding: 4rem 4rem;
+  padding-bottom: 2rem;
+}
+
+.value-heading h3 {
+  color: var(--primary);
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 15px;
+  line-height: 1.2;
+}
+
+.vision-mission-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  gap: 2rem;
+}
+
+.vision-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #022d62;
+  height: 225px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.mission-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #ed3237;
+  height: 225px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.vision-icon-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  padding-bottom: 1rem;
+}
+
+.vision-icon-container img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.vision-icon-container h4 {
+  color: #fff;
+}
+
+.vision-text-container {
+  padding: 0 2rem;
+}
+
+.vision-text-container p {
+  color: #fff;
+}
+
+.about-us-icons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  background-color: #fff;
+  margin: 4rem auto;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.about-us-icons-container div:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
+.about-us-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  cursor: pointer;
+  width: 200px;
+  height: 180px;
+  transition: all 0.2s;
+}
+
+.about-us-icons:hover {
+  transform: translateY(-0.5rem);
+}
+
+.about-us-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-icons img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.about-us-icons p {
+  color: #022d62;
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 20px;
+  margin-top: 4px;
+}
